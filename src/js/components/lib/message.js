@@ -125,6 +125,13 @@ export class Message extends Component {
             <a href={this.props.details.content} target="_blank">{this.props.details.content}</a>
           )
         }
+    } else if (this.props.details.type == "app") {
+      return (
+        <div className="text-body">
+          <span className="text-mono">[{this.props.details.msg.sep.app.app}]</span>
+          <span className="text-mono"> {this.props.details.content}</span>
+        </div>
+      )
     } else if (this.props.details.type === "exp") {
       return (
         <div className="text-body">
