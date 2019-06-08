@@ -9,12 +9,7 @@
   position: relative;
 }
 
-.header-mainrow {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.header-carpet, .header-breadcrumbs {
+.header-breadcrumbs {
   height: 20px;
 }
 
